@@ -187,4 +187,4 @@ while True:
                 aswr = random.randint(1,26)
                 postafrase(aswr)
         main()
-        time.sleep(600)
+        time.sleep(1800)
