@@ -1,0 +1,30 @@
+name: Run bot
+on:
+  schedule:
+    - cron: '*/60 * * * *'
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout repo content
+      uses: actions/checkout@v2 # 
+    - name: Install dependencies
+      run: |
+        pip install tweepy
+        pip install python-dotenv
+    - name: run the bot
+      run: |
+        python automatico.py
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "Github Actions"
+        git add last_tweet_index.txt
+        git commit -m "Update last tweet index"
+        git push origin main
+      env:
+        api_key : ${{ secrets.api_key }}
+        api_secret : ${{ secrets.api_secret }}
+        bearer_token : ${{ secrets.bearer_token }}
+        access_token : ${{ secrets.access_token }}
+        access_secret : ${{ secrets.access_secret }}
