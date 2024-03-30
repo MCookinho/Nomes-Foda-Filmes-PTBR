@@ -1,0 +1,261 @@
+Caneta
+Mesa
+Cadeira
+Livro
+Computador
+Celular
+Copo
+Garfo
+Faca
+Prato
+Garrafa
+Fone de ouvido
+Lápis
+Papel
+Relógio
+Chave
+Carteira
+Óculos
+Controle remoto
+Teclado
+Mouse
+Sofá
+Televisão
+Abajur
+Luminária
+Vaso
+Tapete
+Escova de dentes
+Pasta de dentes
+Toalha
+Sabonete
+Shampoo
+Condicionador
+Cama
+Travesseiro
+Cobertor
+Espelho
+Escova de cabelo
+Secador de cabelo
+Máquina de lavar roupa
+Ferro de passar roupa
+Tábua de passar roupa
+Liquidificador
+Fogão
+Geladeira
+Panela
+Frigideira
+Micro-ondas
+Batedeira
+Ventilador
+Ar-condicionado
+Roupas
+Sapatos
+Bolsa
+Cartão de crédito
+Carro
+Bicicleta
+Moto
+Mochila
+Guarda-chuva
+Boné
+Ímã de geladeira
+Tupperware
+Garrafa térmica
+Caneca
+Pente
+Barbeador
+Creme de barbear
+Cortador de unhas
+Tesoura
+Elástico de cabelo
+Grampos de cabelo
+Almofada
+Lençol
+Cobertor elétrico
+Termômetro
+Régua
+Papel higiênico
+Escova de limpeza
+Lixeira
+Desinfetante
+Esponja de cozinha
+Rolo de papel alumínio
+Guardanapo
+Sacola reutilizável
+Isqueiro
+Fósforos
+Fita adesiva
+Canivete
+Mapa
+Lanterna
+Pilhas
+Protetor solar
+Óleo de cozinha
+Vinagre
+Açúcar
+Sal
+Pimenta
+Erva seca
+Farinha
+Escova de vaso sanitário
+Papel toalha
+Lâmpada
+Fósforos
+Termômetro
+Rodo
+Esfregão
+Cesto de roupa suja
+Régua
+Compasso
+Calculadora
+Estojos de lápis de cor
+Porta-retratos
+Relógio de parede
+Brinquedos
+Estatuetas decorativas
+Escultura
+Caixa de música
+Guarda-roupa
+Estante
+Quadro
+Pincel
+Aquarelas
+Maleta de ferramentas
+Ferramentas elétricas
+Equipamento de jardinagem
+Mangueira de jardim
+Regador
+Sementes
+Vaso de plantas
+Plantas de interior
+Plantas de exterior
+Cortina
+Persiana
+Abajur
+Spot de luz
+Luminária de mesa
+Luminária de chão
+Tapete de banheiro
+Toalha de banho
+Saboneteira
+Cortina de chuveiro
+Tapete de entrada
+Armário de remédios
+Termômetro médico
+Pinça
+Escova de cabelo
+Laço de cabelo
+Barrete
+Tintura de cabelo
+Bóia de natação
+Raquete de tênis
+Bola de futebol
+Corda de pular
+Bola de basquete
+Patins
+Skate
+Binóculos
+Câmera fotográfica
+Tripé
+Mochila de câmera
+Capa de chuva
+Guarda-sol
+Mapa
+Bússola
+Cadeado
+Corrente
+Corda
+Mosquiteiro
+Tenda de acampamento
+Saco de dormir
+Isolante térmico
+Fogão portátil
+Kit de primeiros socorros
+Lanterna de cabeça
+Cantil
+Saco estanque
+Faca multiuso
+Kit de talheres de camping
+Filtro de água
+Binóculos
+Caneta esferográfica
+Caneta marcadora
+Apontador de lápis
+Borracha
+Calculadora
+Grampeador
+Clips de papel
+Envelopes
+Carimbo
+Etiquetas adesivas
+Bloco de notas
+Alfinetes
+Mapa-múndi
+Globo terrestre
+Atlas
+Bússola
+Baralho de cartas
+Dados de jogo
+Quebra-cabeças
+Kit de costura
+Agulha de tricô
+Agulha de crochê
+Linha de costura
+Tesoura de costura
+Alfinetes de segurança
+Caixa de ferramentas
+Chave de fenda
+Chave inglesa
+Alicate
+Martelo
+Trena
+Nível
+Parafusos e porcas
+Dobradiças
+Maçaneta
+Trava de segurança
+Fio elétrico
+Tomada
+Interruptor de luz
+Cabo de extensão
+Pilhas recarregáveis
+Carregador portátil
+Adesivos decorativos
+Molduras de quadros
+Suporte para livros
+Caixa de joias
+Organizador de gavetas
+Conjunto de facas de cozinha
+Tábua de corte
+Descascador de legumes
+Ralador
+Espremedor de frutas
+Moedor de café
+Máquina de café expresso
+Filtro de café
+Jarra de água filtrada
+Saca-rolhas
+Abridor de latas
+Tigela de salada
+Ralador de queijo
+Colher de sorvete
+Cortador de pizza
+Espátula de cozinha
+Pincel de cozinha
+Termômetro de cozinha
+Batedor de ovos
+Medidores de cozinha
+Timer de cozinha
+Fruteira
+Chá
+Chapéu
+Cidade
+Cadeira
+Café
+Caixa
+Cama
+Câmera
+Camisa
+Caneca
+Caneta

@@ -1,0 +1,249 @@
+Cidade
+Vila
+País
+Continente
+Oceano
+Montanha
+Rio
+Lago
+Ilha
+Planície
+Deserto
+Selva
+Praia
+Floresta
+Vulcão
+Península
+Baía
+Estreito
+Vale
+Planalto
+Canyon
+Cachoeira
+Pântano
+Pico
+Geleira
+Tundra
+Savana
+Costa
+Colina
+Arquipélago
+Fjord
+Baía
+Avenida
+Praça
+Rua
+Calçadão
+Estádio
+Teatro
+Cinema
+Parque
+Jardim
+Escola
+Universidade
+Biblioteca
+Museu
+Restaurante
+Café
+Bar
+Hotel
+Aeroporto
+Estação de trem
+Estação de ônibus
+Porta
+Terminal de navios
+Casa
+Apartamento
+Mansão
+Cabana
+Barraca
+Abadia
+Castelo
+Palácio
+Casa de campo
+Chalé
+Estação de esqui
+Resort
+Clube
+Ginásio
+Piscina
+Campo de golfe
+Quadra de tênis
+Pista
+Marina
+Farol
+Cabana de praia
+Píer
+Porto
+Ponte
+Viaduto
+Estrada
+Rodovia
+Trilha
+Caminho
+Ferrovia
+Metrô
+Ciclovia
+Passarela
+Barragem
+Aqueduto
+Torres
+Arranha-céu
+Torre de observação
+Monumento
+Sítio arqueológico
+Parque nacional
+Reserva natural
+Zoológico
+Aquário
+Jardim botânico
+Observatório
+Estação espacial
+Base lunar
+Planeta
+Lua
+Marte
+Júpiter
+Saturno
+Urano
+Netuno
+Plutão
+Estrela
+Nebulosa
+Galáxia
+Sistema solar
+Espaçonave
+Laboratório de pesquisa
+Observatório astronômico
+Pólo Norte
+Pólo Sul
+Desfiladeiro
+Cabana na montanha
+Refúgio alpino
+Estação de pesquisa polar
+Gruta
+Ruínas
+Caverna
+Cidade subterrânea
+Cidade flutuante
+Colônia espacial
+Torre de transmissão
+Base militar
+Estação de radar
+Ilha deserta
+Cabana na floresta
+Cabana à beira do rio
+Casa na árvore
+Vila medieval
+Cidade fantasma
+Estação de trem abandonada
+Ruas estreitas
+Ruas de paralelepípedos
+Favela
+Complexo industrial
+Fazenda
+Plantation
+Celeiro
+Mercado ao ar livre
+Feira
+Bairro comercial
+Marina
+Baixada
+Promontório
+Vale Glaciar
+Geleira
+Cabana na Praia
+Casa de campo
+Mansão
+Caverna
+Base Espacial
+Metrópole
+Subúrbio
+Edifício
+Teatro
+Ópera
+Arena
+Igreja
+Sinagoga
+Mesquita
+Templo
+Capela
+Catedral
+Monumento
+Palácio
+Fortaleza
+Castelo
+Torre de Observação
+Montanha
+Penhasco
+Mirante
+Farol
+Monumento Natural
+Reserva Ecológica
+Floresta Tropical
+Pântano
+Monumento Histórico
+Museu de Arte
+Galeria de Arte
+Ateliê
+Estúdio de Gravação
+Cemitério
+Túmulo
+Necrópole
+Memorial
+Ruínas
+Palafita
+Estação de Esqui
+Base de Montanha
+Cabana de Caça
+Pavilhão
+Aqueduto
+Cânion
+Sertão
+Aldeia
+Terreno baldio
+Fazenda
+Gruta
+Vale
+Montanha-russa
+Parque aquático
+Loja de conveniência
+Posto de gasolina
+Fazenda de criação
+Reator nuclear
+Base de lançamento
+Estação de pesquisa
+Cabana de pescador
+Cabana na floresta
+Colônia de férias
+Base militar
+Estação de radar
+Campo de concentração
+Fábrica abandonada
+Escola abandonada
+Hospital abandonado
+Prisão
+Depósito de lixo
+Lixeira
+Montanha de lixo
+Rio subterrâneo
+Sistema de esgoto
+Pântano de águas negras
+Lago de águas termais
+Banheiro público
+Parque de diversões
+Cassino
+Spa
+Clube noturno
+Boate
+Sala de concertos
+Casa de ópera
+Arena esportiva
+Salão de dança
+Academia de ginástica
+Estádio de futebol
+Hipódromo
+Pista de corrida
+Campo de golfe
+Quadra de tênis
+Campo de beisebol
