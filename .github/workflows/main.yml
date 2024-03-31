@@ -3,7 +3,7 @@ on:
   schedule:
     - cron: '*/30 * * * *' # Runs Bot every 30 minutes
   push:
-    branches: [ activation ]
+    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,10 +15,11 @@ jobs:
         pip install tweepy
         pip install python-dotenv
     - name: Compilando o script
+      env:
+        api_key : ${{ secrets.API_KEY }}
+        api_secret : ${{ secrets.API_SECRET }}
+        acess_token : ${{ secrets.ACCESS_TOKEN }}
+        acess_secret : ${{ secrets.ACCESS_SECRET }}
+        bearer_token : ${{ secrets.BEARER_TOKEN }}
       run: |
         python automatico.py
-      env:
-        TWITTER_API_KEY : ${{ secrets.API_KEY }}
-        TWITTER_API_SECRET_KEY : ${{ secrets.API_SECRET }}
-        TWITTER_ACCESS_TOKEN : ${{ secrets.ACCESS_TOKEN }}
-        TWITTER_ACCESS_TOKEN_SECRET : ${{ secrets.ACCESS_SECRET }}
