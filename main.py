@@ -26,25 +26,25 @@ client = tweepy.Client(
 )
 
 #transforma os arquivos em listas
-with open('/home/runner/work/Nomes-Foda-Filmes/Nomes-Foda-Filmes/palavras/nomes.txt', 'r', encoding='utf-8') as arq:
+with open('palavras/nomes.txt', 'r', encoding='utf-8') as arq:
     nomes = arq.readlines()
 with open('/home/runner/work/Nomes-Foda-Filmes/Nomes-Foda-Filmes/palavras/substantivos.txt', 'r', encoding='utf-8') as arq:
     substantivos = arq.readlines()
-with open('/home/runner/work/Nomes-Foda-Filmes/Nomes-Foda-Filmes/palavras/verbos.txt', 'r', encoding='utf-8') as arq:
+with open('palavras/verbos.txt', 'r', encoding='utf-8') as arq:
     verbos = arq.readlines()
-with open('/home/runner/work/Nomes-Foda-Filmes/Nomes-Foda-Filmes/palavras/adjetivos.txt', 'r', encoding='utf-8') as arq:
+with open('palavras/adjetivos.txt', 'r', encoding='utf-8') as arq:
     adjetivos = arq.readlines()
-with open('/home/runner/work/Nomes-Foda-Filmes/Nomes-Foda-Filmes/palavras/locais.txt', 'r', encoding='utf-8') as arq:
+with open('palavras/locais.txt', 'r', encoding='utf-8') as arq:
     locais = arq.readlines()
-with open('/home/runner/work/Nomes-Foda-Filmes/Nomes-Foda-Filmes/palavras/cidades.txt', 'r', encoding='utf-8') as arq:
+with open('palavras/cidades.txt', 'r', encoding='utf-8') as arq:
     cidades = arq.readlines()
-with open('/home/runner/work/Nomes-Foda-Filmes/Nomes-Foda-Filmes/palavras/objetos.txt', 'r', encoding='utf-8') as arq:
+with open('palavras/objetos.txt', 'r', encoding='utf-8') as arq:
     objetos = arq.readlines()
-with open('/home/runner/work/Nomes-Foda-Filmes/Nomes-Foda-Filmes/palavras/generos.txt', 'r', encoding='utf-8') as arq:
+with open('palavras/generos.txt', 'r', encoding='utf-8') as arq:
     generos = arq.readlines()
-with open('/home/runner/work/Nomes-Foda-Filmes/Nomes-Foda-Filmes/palavras/diretores.txt', 'r', encoding='utf-8') as arq:
+with open('palavras/diretores.txt', 'r', encoding='utf-8') as arq:
     diretores = arq.readlines()
-with open('/home/runner/work/Nomes-Foda-Filmes/Nomes-Foda-Filmes/palavras/atores.txt', 'r', encoding='utf-8') as arq:
+with open('palavras/atores.txt', 'r', encoding='utf-8') as arq:
     atores = arq.readlines()
 
 
