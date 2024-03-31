@@ -143,7 +143,7 @@ while True:
                         client.create_tweet(text="Nome: " + nome + ", " + rpt + " e o " + objeto + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
                         print(nome + ", " + rpt + " e o " + objeto + "\n")
                 elif aswr == 16:
-                        rpt = random.choice(nome) 
+                        rpt = random.choice(objetos) 
                         rpt = rpt.rstrip('\n')
                         client.create_tweet(text="Nome: " + objeto + ", " + rpt + " e outras coisas" + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
                         print(objeto + ", " + rpt + " e outras coisas" + "\n" )
