@@ -23,4 +23,3 @@ jobs:
         api_secret : ${{ secrets.API_SECRET }}
         access_token : ${{ secrets.ACCESS_TOKEN }}
         access_secret : ${{ secrets.ACCESS_SECRET }}
-        bearer_token : ${{ secrets.BEARER_TOKEN }}
