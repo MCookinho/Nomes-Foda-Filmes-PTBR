@@ -15,11 +15,12 @@ jobs:
         pip install tweepy
         pip install python-dotenv
     - name: Compilando o script
+      run: |
+        python automatico.py
       env:
+        CI: true
         api_key : ${{ secrets.API_KEY }}
         api_secret : ${{ secrets.API_SECRET }}
         access_token : ${{ secrets.ACCESS_TOKEN }}
         access_secret : ${{ secrets.ACCESS_SECRET }}
         bearer_token : ${{ secrets.BEARER_TOKEN }}
-      run: |
-        python automatico.py
