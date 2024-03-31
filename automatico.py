@@ -1,17 +1,13 @@
 import tweepy
 import time
 import random 
-import dotenv
-
-#chaves tiradas do env
-chaves = dotenv.dotenv_values(".env")
+import os
 
 #definição das chaves
-api_key = chaves['api_key']
-api_secret = chaves['api_secret']
-bearer_token = chaves['bearer_token']
-access_token = chaves['access_token']
-access_secret = chaves['access_secret']
+api_key = os.environ['TWITTER_API_KEY']
+api_secret = os.environ['TWITTER_API_SECRET_KEY']
+access_token = os.environ['TWITTER_ACCESS_TOKEN']
+access_secret = os.environ['TWITTER_ACCESS_TOKEN_SECRET']
 
 # V1 Twitter API Authentication
 auth = tweepy.OAuthHandler(api_key, api_secret)
