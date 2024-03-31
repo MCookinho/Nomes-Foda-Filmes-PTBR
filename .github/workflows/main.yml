@@ -18,8 +18,8 @@ jobs:
       run: |
         python automatico.py
       env:
-        CI: true
-        api_key : ${{ secrets.API_KEY }}
-        api_secret : ${{ secrets.API_SECRET }}
-        access_token : ${{ secrets.ACCESS_TOKEN }}
-        access_secret : ${{ secrets.ACCESS_SECRET }}
+        TWITTER_API_KEY: ${{ secrets.API_KEY }}
+        TWITTER_API_SECRET: ${{ secrets.API_SECRET }}
+        TWITTER_ACCESS_TOKEN_KEY: ${{ secrets.ACCESS_TOKEN }}
+        TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.ACCESS_SECRET }}
+        BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
