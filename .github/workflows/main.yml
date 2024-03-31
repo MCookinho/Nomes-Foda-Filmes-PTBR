@@ -2,8 +2,6 @@ name: Postando Tweet
 on:
   schedule:
     - cron: '*/30 * * * *' # Runs Bot every 30 minutes
-  push:
-    branches: [ main ]
 jobs:
   build:
     runs-on: ubuntu-latest
