@@ -180,7 +180,7 @@ def postafrase(aswr):
                 print("o assasinato de " + nome + "\n")
         elif aswr == 26:
                 client.create_tweet(text="Nome: " + "o assasino da " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-            print("o assasino da " + local + "\n")
+                print("o assasino da " + local + "\n")
 
         #função main
         def main():
