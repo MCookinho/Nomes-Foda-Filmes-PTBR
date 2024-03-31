@@ -11,4 +11,3 @@ access_secret = os.environ['TWITTER_ACCESS_SECRET']
 bearer_token = os.environ['TWITTER_BEARER_TOKEN']
 
 print(api_key)
-print(bearer_token)
