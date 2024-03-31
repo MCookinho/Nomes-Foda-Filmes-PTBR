@@ -8,9 +8,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: checando repositorio
+    - name: Checando conteudo do repositorio
       uses: actions/checkout@v2 # 
-    - name: instalando bibliotecas
+    - name: Instalando bibliotecas
       run: |
         pip install tweepy
         pip install python-dotenv
