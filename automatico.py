@@ -58,7 +58,7 @@ while True:
         time.sleep(1)
         substantivo = random.choice(substantivos) 
         substantivo = substantivo.rstrip('\n')
-        time.sleep(1)
+        time.sleep(2)
         verbo = random.choice(verbos) 
         verbo = verbo.rstrip('\n')
         time.sleep(1)
