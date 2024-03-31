@@ -90,101 +90,100 @@ with open('atores.txt', 'r', encoding='utf-8') as arq:
         ator3 = ator3.rstrip('\n')
         
 
-        def postafrase(aswr):
-                if aswr == 1:
-                        rpt = random.choice(nomes) 
-                        rpt = rpt.rstrip('\n')
-                        client.create_tweet(text="Nome: " + nome + " quer " + verbo + " " + rpt + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(nome + " quer " + verbo + " " + nome + "\n")
-                elif aswr == 2:
-                        client.create_tweet(text="Nome: " + "o " + verbo + " de " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print("o " + verbo + " de " + nome + "\n")
-                elif aswr == 3:
-                        client.create_tweet(text="Nome: " + cidade + " uma cidade " + adjetivo + "\n" + "Genero: " + "Documentario" + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(cidade + " uma cidade " + adjetivo + " (O DOCUMENTARIO)" + "\n")
-                elif aswr == 4:
-                        client.create_tweet(text="Nome: " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(nome + "\n")
-                elif aswr == 5:
-                        client.create_tweet(text="Nome: " + objeto + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(objeto + "\n")
-                elif aswr == 6:
-                        client.create_tweet(text="Nome: " + "o " + substantivo + " do " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print("o " + substantivo + " do " + nome + "\n")
-                elif aswr == 7:
-                        client.create_tweet(text="Nome: " + substantivo + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(substantivo + " " + adjetivo + "\n")
-                elif aswr == 8:
-                        rpt = random.choice(substantivos) 
-                        rpt = rpt.rstrip('\n')
-                        client.create_tweet(text="Nome: " + substantivo + " de " + rpt + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(substantivo + " de " + rpt + "\n")
-                elif aswr == 9:
-                        client.create_tweet(text="Nome: " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(local + "\n")
-                elif aswr == 10:
-                        client.create_tweet(text="Nome: " + nome + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(nome + " " + adjetivo + "\n")
-                elif aswr == 11:
-                        client.create_tweet(text="Nome: " + nome + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(nome + " " + adjetivo + "\n")
-                elif aswr == 12:
-                        client.create_tweet(text="Nome: " + "cuidado com o " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print("cuidado com o " + local + "\n")
-                elif aswr == 13:
-                        client.create_tweet(text="Nome: " + substantivo + " de " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(substantivo + " de " + nome + "\n")
-                elif aswr == 14:
-                        client.create_tweet(text="Nome: " + cidade + " em caos" + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(cidade + " em caos" + "\n")
-                elif aswr == 15:
-                        rpt = random.choice(nomes) 
-                        rpt = rpt.rstrip('\n')
-                        client.create_tweet(text="Nome: " + nome + ", " + rpt + " e o " + objeto + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(nome + ", " + rpt + " e o " + objeto + "\n")
-                elif aswr == 16:
-                        rpt = random.choice(objetos) 
-                        rpt = rpt.rstrip('\n')
-                        client.create_tweet(text="Nome: " + objeto + ", " + rpt + " e outras coisas" + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(objeto + ", " + rpt + " e outras coisas" + "\n" )
-                elif aswr == 17:
-                        client.create_tweet(text="Nome: " + local + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(local + " " + adjetivo + "\n")
-                elif aswr == 18:
-                        client.create_tweet(text="Nome: " + substantivo + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(substantivo + " " + adjetivo + "\n")
-                elif aswr == 19:
-                            client.create_tweet(text="Nome: " + verbo + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                            print(verbo + " " + adjetivo + "\n")
-                    elif aswr == 20:
-                            client.create_tweet(text="Nome: " + verbo + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                            print(verbo + " " + adjetivo + "\n")
-                    elif aswr == 21:
-                            client.create_tweet(text="Nome: " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                            print(local + "\n")
-                    elif aswr == 22:
-                            rpt = random.choice(cidades) 
-                            rpt = rpt.rstrip('\n')
-                            client.create_tweet(text="Nome: " + cidade + " vs " + rpt + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                            print(cidade + " vs " + rpt + "\n")
-                    elif aswr == 23:
-                            rpt = random.choice(nomes) 
-                            rpt = rpt.rstrip('\n')
-                            client.create_tweet(text="Nome: " + nome + " vs " + rpt + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                            print(nome + " vs " + rpt + "\n")
-                    elif aswr == 24:
-                            client.create_tweet(text="Nome: " + "o " + objeto + " do " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                            print("o " + objeto + " do " + local + "\n")
-                    elif aswr == 25:
-                            client.create_tweet(text="Nome: " + "o assasinato de " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                            print("o assasinato de " + nome + "\n")
-                    elif aswr == 26:
-                            client.create_tweet(text="Nome: " + "o assasino da " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print("o assasino da " + local + "\n")
+def postafrase(aswr):
+        if aswr == 1:
+                rpt = random.choice(nomes) 
+                rpt = rpt.rstrip('\n')
+                client.create_tweet(text="Nome: " + nome + " quer " + verbo + " " + rpt + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(nome + " quer " + verbo + " " + nome + "\n")
+        elif aswr == 2:
+                client.create_tweet(text="Nome: " + "o " + verbo + " de " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print("o " + verbo + " de " + nome + "\n")
+        elif aswr == 3:
+                client.create_tweet(text="Nome: " + cidade + " uma cidade " + adjetivo + "\n" + "Genero: " + "Documentario" + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(cidade + " uma cidade " + adjetivo + " (O DOCUMENTARIO)" + "\n")
+        elif aswr == 4:
+                client.create_tweet(text="Nome: " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(nome + "\n")
+        elif aswr == 5:
+                client.create_tweet(text="Nome: " + objeto + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(objeto + "\n")
+        elif aswr == 6:
+                client.create_tweet(text="Nome: " + "o " + substantivo + " do " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print("o " + substantivo + " do " + nome + "\n")
+        elif aswr == 7:
+                client.create_tweet(text="Nome: " + substantivo + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(substantivo + " " + adjetivo + "\n")
+        elif aswr == 8:
+                rpt = random.choice(substantivos) 
+                rpt = rpt.rstrip('\n')
+                client.create_tweet(text="Nome: " + substantivo + " de " + rpt + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(substantivo + " de " + rpt + "\n")
+        elif aswr == 9:
+                client.create_tweet(text="Nome: " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(local + "\n")
+        elif aswr == 10:
+                client.create_tweet(text="Nome: " + nome + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(nome + " " + adjetivo + "\n")
+        elif aswr == 11:
+                client.create_tweet(text="Nome: " + nome + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(nome + " " + adjetivo + "\n")
+        elif aswr == 12:
+                client.create_tweet(text="Nome: " + "cuidado com o " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print("cuidado com o " + local + "\n")
+        elif aswr == 13:
+                client.create_tweet(text="Nome: " + substantivo + " de " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(substantivo + " de " + nome + "\n")
+        elif aswr == 14:
+                client.create_tweet(text="Nome: " + cidade + " em caos" + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(cidade + " em caos" + "\n")
+        elif aswr == 15:
+                rpt = random.choice(nomes) 
+                rpt = rpt.rstrip('\n')
+                client.create_tweet(text="Nome: " + nome + ", " + rpt + " e o " + objeto + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(nome + ", " + rpt + " e o " + objeto + "\n")
+        elif aswr == 16:
+                rpt = random.choice(objetos) 
+                rpt = rpt.rstrip('\n')
+                client.create_tweet(text="Nome: " + objeto + ", " + rpt + " e outras coisas" + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(objeto + ", " + rpt + " e outras coisas" + "\n" )
+        elif aswr == 17:
+                client.create_tweet(text="Nome: " + local + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(local + " " + adjetivo + "\n")
+        elif aswr == 18:
+                client.create_tweet(text="Nome: " + substantivo + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(substantivo + " " + adjetivo + "\n")
+        elif aswr == 19:
+                    client.create_tweet(text="Nome: " + verbo + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                    print(verbo + " " + adjetivo + "\n")
+        elif aswr == 20:
+                client.create_tweet(text="Nome: " + verbo + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(verbo + " " + adjetivo + "\n")
+        elif aswr == 21:
+                client.create_tweet(text="Nome: " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(local + "\n")
+        elif aswr == 22:
+                rpt = random.choice(cidades) 
+                rpt = rpt.rstrip('\n')
+                client.create_tweet(text="Nome: " + cidade + " vs " + rpt + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(cidade + " vs " + rpt + "\n")
+        elif aswr == 23:
+                rpt = random.choice(nomes) 
+                rpt = rpt.rstrip('\n')
+                client.create_tweet(text="Nome: " + nome + " vs " + rpt + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print(nome + " vs " + rpt + "\n")
+        elif aswr == 24:
+                client.create_tweet(text="Nome: " + "o " + objeto + " do " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print("o " + objeto + " do " + local + "\n")
+        elif aswr == 25:
+                client.create_tweet(text="Nome: " + "o assasinato de " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                print("o assasinato de " + nome + "\n")
+        elif aswr == 26:
+                client.create_tweet(text="Nome: " + "o assasino da " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+            print("o assasino da " + local + "\n")
 
         #função main
         def main():
                 aswr = random.randint(1,26)
                 postafrase(aswr)
         main()
-        time.sleep(1800)
