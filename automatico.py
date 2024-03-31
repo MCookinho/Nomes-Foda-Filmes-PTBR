@@ -151,10 +151,10 @@ def postafrase(aswr):
         client.create_tweet(text="Nome: " + substantivo + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print(substantivo + " " + adjetivo + "\n")
     elif aswr == 19:
-        client.create_tweet(text="Nome: " + verbo + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+        client.create_tweet(text="Nome: " + genero + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print(verbo + " " + adjetivo + "\n")
     elif aswr == 20:
-        client.create_tweet(text="Nome: " + verbo + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+        client.create_tweet(text="Nome: " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print(verbo + " " + adjetivo + "\n")
     elif aswr == 21:
         client.create_tweet(text="Nome: " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
