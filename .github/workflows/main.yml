@@ -17,6 +17,3 @@ jobs:
     - name: Compilando o script
       run: |
         python automatico.py
-        git add last_tweet_index.txt
-        git commit -m "Update last tweet index"
-        git push origin main
