@@ -8,7 +8,7 @@ api_key = os.environ['TWITTER_API_KEY']
 api_secret = os.environ['TWITTER_API_SECRET']
 access_token = os.environ['TWITTER_ACCESS_TOKEN']
 access_secret = os.environ['TWITTER_ACCESS_SECRET']
-bearer_token = os.environ['TWITTER_BEARER_TOKEN']
+bearer_token = r"AAAAAAAAAAAAAAAAAAAAAAhCtAEAAAAAXBIZKGcrX7rXJOxRyPlal52%2BYws%3D0xyZRoNbM98xSduWGfpNiz371LZC4C1IXJVbBdt0Tg0CBwW6aG"
 
 # V1 Twitter API Authentication
 auth = tweepy.OAuthHandler(api_key, api_secret)
