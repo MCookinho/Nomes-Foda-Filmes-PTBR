@@ -117,8 +117,8 @@ while True:
                 elif aswr == 8:
                         rpt = random.choice(substantivos) 
                         rpt = rpt.rstrip('\n')
-                        client.create_tweet(text="Nome: " + substantivo + " de " + substantivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
-                        print(substantivo + " de " + substantivo + "\n")
+                        client.create_tweet(text="Nome: " + substantivo + " de " + rpt + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+                        print(substantivo + " de " + rpt + "\n")
                 elif aswr == 9:
                         client.create_tweet(text="Nome: " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
                         print(local + "\n")
