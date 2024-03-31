@@ -1,7 +1,9 @@
 name: Posta Tweet
 on:
+  workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '*/30 * * * *' # Runs Bot every 30 minutes
+    
 jobs:
   build:
     runs-on: ubuntu-latest
