@@ -97,7 +97,7 @@ def postafrase(aswr):
         client.create_tweet(text="Nome: " + nome + " quer " + verbo + " " + rpt + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print(nome + " quer " + verbo + " " + nome + "\n")
     elif aswr == 2:
-        client.create_tweet(text="Nome: " + "o " + verbo + " de " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+        client.create_tweet(text="Nome: " + "O " + verbo + " de " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print("o " + verbo + " de " + nome + "\n")
     elif aswr == 3:
         client.create_tweet(text="Nome: " + cidade + " uma cidade " + adjetivo + "\n" + "Genero: " + "Documentario" + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
@@ -109,7 +109,7 @@ def postafrase(aswr):
         client.create_tweet(text="Nome: " + objeto + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print(objeto + "\n")
     elif aswr == 6:
-        client.create_tweet(text="Nome: " + "o " + substantivo + " do " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+        client.create_tweet(text="Nome: " + "O " + substantivo + " do " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print("o " + substantivo + " do " + nome + "\n")
     elif aswr == 7:
         client.create_tweet(text="Nome: " + substantivo + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
@@ -129,7 +129,7 @@ def postafrase(aswr):
         client.create_tweet(text="Nome: " + nome + " " + adjetivo + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print(nome + " " + adjetivo + "\n")
     elif aswr == 12:
-        client.create_tweet(text="Nome: " + "cuidado com o " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+        client.create_tweet(text="Nome: " + "Cuidado com o " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print("cuidado com o " + local + "\n")
     elif aswr == 13:
         client.create_tweet(text="Nome: " + substantivo + " de " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
@@ -173,13 +173,13 @@ def postafrase(aswr):
         client.create_tweet(text="Nome: " + nome + " vs " + rpt + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print(nome + " vs " + rpt + "\n")
     elif aswr == 24:
-        client.create_tweet(text="Nome: " + "o " + objeto + " do " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+        client.create_tweet(text="Nome: " + "O " + objeto + " do " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print("o " + objeto + " do " + local + "\n")
     elif aswr == 25:
-        client.create_tweet(text="Nome: " + "o assasinato de " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+        client.create_tweet(text="Nome: " + "O assasinato de " + nome + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print("o assasinato de " + nome + "\n")
     elif aswr == 26:
-        client.create_tweet(text="Nome: " + "o assasino da " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
+        client.create_tweet(text="Nome: " + "O assasino da " + local + "\n" + "Genero: " + genero + "\n" + "Diretor: " + diretor + "\n" + "Elenco principal: " + ator1 + ", " + ator2 + ", " + ator3)
         print("o assasino da " + local + "\n")
 
 #função main
