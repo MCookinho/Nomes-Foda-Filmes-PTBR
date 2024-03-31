@@ -1,4 +1,4 @@
-name: Run bot
+name: Posta Tweet
 on:
   schedule:
     - cron: '*/30 * * * *'
@@ -8,12 +8,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: checkout repo content
+    - name: checando repositorio
       uses: actions/checkout@v2 # 
-    - name: Install dependencies
+    - name: instalando bibliotecas
       run: |
         pip install tweepy
         pip install python-dotenv
-    - name: run the bot
+    - name: Compilando o script
       run: |
         python automatico.py
