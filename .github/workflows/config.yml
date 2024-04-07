@@ -1,7 +1,7 @@
 name: Postando Tweet
 on:
   schedule:
-    - cron: '*/30 * * * *' # Runs Bot every 30 minutes
+    - cron: '*/60 * * * *' # Runs Bot every 30 minutes
   workflow_dispatch:
 jobs:
   build:
